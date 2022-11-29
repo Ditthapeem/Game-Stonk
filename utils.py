@@ -6,7 +6,7 @@ GAME_DICT = {"game_id":[{1: "Counter-Strike: Global Offensive", 2: "Dota 2", 3: 
                         4: "PUBG: BATTLEGROUNDS", 5: "Apex Legends", 6: "Naraka: Bladepoint", 7: "Grand Theft Auto V",
                         8: "New World", 9: "Dead by Daylight", 10: "Elden Ring", 11: "Monster Hunter Rise", 12: "Project Zomboid"}]}
 
-DICT_PLATFORM = {"twitter": "twttes", "google_trends":"interest", "twitch": "viewers", "steam":"players"}
+DICT_PLATFORM = {"twitter": "tweets", "google_trends":"interest", "twitch": "viewers", "steam":"players"}
 
 def get_list(list_id):
     list_game_name = []
